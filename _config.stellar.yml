@@ -1,0 +1,66 @@
+######## Style ########
+style:
+  darkmode: auto # auto / always / false
+  theme:
+    light: '#f8f8f8'
+    dark: '#313438'
+    
+######## Sidebar ########
+sidebar:
+  menu:
+    post: '[随笔](/)'
+    wiki: '[专栏](/wiki/)'
+    notes: '[便笺](/notes/)'
+    more: '[关于](/about/)'
+  widget_layout:
+    index: [welcome, recent] # for home/wiki/categories/tags/archives/404 pages
+    page: [welcome, toc] # for pages using 'layout:page'
+    post: [toc, repo_info] # for pages using 'layout:post'
+    wiki: [toc, repo_info, wiki_more] # for pages using 'layout:wiki'
+
+######## Footer ########
+footer:
+  social:
+    - icon: '<img src="https://files.coolkes.com/images/gmail.svg"/>'
+      url: mailto:iopanjing@gmail.com
+    - icon: '<img src="https://files.coolkes.com/images/github.svg"/>'
+      url: https://github.com/coolkes
+    - icon: '<img src="https://static.zhihu.com/heifetz/favicon.ico"/>'
+      url: https://www.zhihu.com/people/coolkes
+      
+  sitemap:
+    '🎯 博客':
+      - '[🧩 分类](/categories/)'
+      - '[📻 标签](/tags/)'
+      - '[⚙️ 归档](/archives/)'
+    '🎉 专栏':
+      - '[❓ 为什么这么设计](/wiki/why-design/)'
+      - '[📖 读书笔记](/wiki/read-notes/)'
+    '🍻 社交':
+      - '[🫰 朋友圈](/friends)'
+      - '[📑 留言板](/)' 
+    '💦 更多':
+      - '[👋 关于本站](/about/)'
+      - '[⚔️ GitHub](https://github.com/coolkes)'
+  license: '[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)'
+  source: '[GitHub](https://github.com/coolkes/coolkes.github.io)'
+  more: 
+    <hr/>
+    <div align="left">
+      <img src="https://su3.cn/p/imgs/beian.png" title="备案管理系统" style="width:12px; height:12px; margin:0 5px 0 0;"> 
+      <a href="http://beian.miit.gov.cn/" style="text-decoration:none;" target="_blank" title="备案号">豫ICP备2021033222-1</a>
+    </div>
+
+
+######## Article ########
+article:
+  # 如果没有指定封面，是否根据 tags 作为关键词搜索封面图片？
+  auto_cover: false # search from https://source.unsplash.com/
+  # 如果没有指定横幅，是否根据 tags 作为关键词搜索横幅图片？
+  auto_banner: false # search from https://source.unsplash.com/
+  # 如果没有指定 excerpt 和 description，将自动取多长的内容作为文章摘要？
+  auto_excerpt: 200
+  # 文章许可协议
+  license: #'本文采用 [署名-非商业性使用-相同方式共享 4.0 国际](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可协议，转载请注明出处。'
+  # 分享
+  share: [wechat, weibo, email, link]

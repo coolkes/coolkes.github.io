@@ -1,0 +1,29 @@
+  # Recent update
+  recent:
+    layout: recent
+    rss: /atom.xml # npm i hexo-generator-feed
+    limit: 5 # Count of posts
+  # TOC (valid only in layout:post/wiki)
+  toc:
+    layout: toc
+    list_number: false
+    min_depth: 2
+    max_depth: 5
+  # welcome
+  welcome:
+    layout: markdown
+    title: 👏 公告
+    content: |
+      这里是 coolkes 的个人网站 🍰
+      记录生活，分享技术，做一个兴趣使然的 Hero 🏆
+      <hr/>
+      欢迎关注公众号：
+      <br/><br/>
+      <div align="center">    
+        <img src="https://files.coolkes.com/images/wx_qrcode.jpg" width="60%" height="60%">
+      </div>
+      <hr/>
+      
+      今日诗词：<span id="jinrishici-sentence">正在加载今日诗词....</span>
+      <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+    

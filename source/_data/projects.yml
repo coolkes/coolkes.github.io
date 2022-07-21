@@ -1,0 +1,22 @@
+why-design:
+  title: 为什么这么设计
+  subtitle: 
+  tags: 
+  cover: true
+  logo:
+    src: https://files.coolkes.com/images/why-design.jpg
+    small: 120px
+    large: 240px
+  description: 记录学习、研究、探讨计算机领域中程序设计决策的文章。
+
+
+read-notes:
+  title: 读书笔记
+  subtitle: 
+  tags: 
+  cover: true
+  logo:
+    src: https://files.coolkes.com/images/read-notes.jpg
+    small: 120px
+    large: 240px
+  description: 一个喜欢读书的人，品格不会坏到哪去；一个品格好的人，一生的运气不会差到哪去。
